@@ -1,8 +1,8 @@
 {
-  "name": "start-cdk",
+  "name": "sandbox-ec2",
   "version": "0.1.0",
   "bin": {
-    "start-cdk": "bin/start-cdk.js"
+    "start-cdk": "bin/sandbox-ec2.js"
   },
   "scripts": {
     "build": "tsc",
