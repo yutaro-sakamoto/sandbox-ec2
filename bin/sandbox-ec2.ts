@@ -7,9 +7,9 @@ import { Aspects } from "aws-cdk-lib";
 
 const app = new cdk.App();
 Aspects.of(app).add(new AwsSolutionsChecks({ verbose: true }));
-const stack = new SandboxEc2(app, "StartCDKStack", {});
+const stack = new SandboxEc2(app, "SandboxEc2Stack", {});
 
 // 必要に応じて作成するリソース全体に共通のタグを追加
-// cdk.Tags.of(app).add("project", "StartCDKProject");
+// cdk.Tags.of(app).add("project", "SandboxEc2");
 
 stack.addCdkNagSuppressions();
