@@ -23,7 +23,7 @@
     "ts-node": "^10.9.2",
     "typedoc": "^0.26.11",
     "typescript": "~5.6.3",
-    "typescript-eslint": "^8.11.0"
+    "typescript-eslint": "^8.13.0"
   },
   "dependencies": {
     "aws-cdk-lib": "2.166.0",
