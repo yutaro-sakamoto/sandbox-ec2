@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "aws-cdk-lib": "2.166.0",
-    "cdk-nag": "^2.31.4",
+    "cdk-nag": "^2.34.20",
     "constructs": "^10.4.2",
     "source-map-support": "^0.5.21"
   }
